@@ -3,7 +3,48 @@ background-color: #1e1e1e;
 }
 .text{
 color: #C8D8B1;
-font-family: 'Orbitron', sans-serif;
+font-family: 'Orbitron';
 font-weight: bold;
-font-size: 50px;
+font-size: 45px;
+}
+
+#upperPart{
+
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+
+#middlePart{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-right: 65px;
+}
+#decission{
+
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+margin-top: 0%;
+
+}
+
+.sizeOfImage{
+
+height: 250px;
+width: 250px;
+
+
+
+}
+
+#choose{
+
+  display: flex;
+  justify-content: center;
+  gap: 70px;
 }
