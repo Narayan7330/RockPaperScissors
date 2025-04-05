@@ -4,7 +4,7 @@ background-color: #1e1e1e;
 .text{
 color: #C8D8B1;
 font-family: 'Orbitron';
-font-weight: bold;
+font-weight: bolder;
 font-size: 45px;
 }
 
@@ -21,22 +21,23 @@ align-items: center;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-right: 65px;
+  margin-right: 10px;
 }
 #decission{
 
 display: flex;
 justify-content: center;
-flex-direction: column;
+flex-direction: row;
 align-items: center;
 margin-top: 0%;
-
+gap: 500px;
+padding-right: 40px;
 }
 
 .sizeOfImage{
 
-height: 250px;
-width: 250px;
+height: 150px;
+width: 200px;
 
 
 
@@ -46,5 +47,14 @@ width: 250px;
 
   display: flex;
   justify-content: center;
-  gap: 70px;
+  gap: 150px;
+  margin-top: 100px;
+}
+
+.decisionText{
+  color:#86cb26;
+  font-family: 'Orbitron';
+  font-weight: bold;
+  font-size: 25px;
+  
 }
