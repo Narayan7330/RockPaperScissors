@@ -3,35 +3,41 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>RockPaperScissors</title>
-  
+  <title>RockPaperScissors</title>  
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   
 
 <div id="upperPart">
-  <h1 class="text" style="padding-right: 90px;">Rock Paper Scissor</h1>
+  <h1 class="text" style="padding-left: 60px;font-size: 60px;color: burlywood;">Rock Paper Scissor</h1>
 </div>
+
 
 <div id="middlePart">
-  <p class="text">You:</p>
+  <p class="text" style="display: flex;padding-left: 170px;">You:</p>
+  <p id="humanScore" style="display: flex;"></p>
   <img src="img/Untitled design.png" alt="artist" height="250px" width="450px">
   <p class="text">Computer:</p>
+  <p id="computerScore"></p>
   </div>
 
-<div id="decission" class="text" style="font-size: 40px; margin-top: 20px; padding-right: 40px; color: rgb(10, 219, 181);" >
-  
 
+
+<div id="decission" class="text" style="font-size: 40px; margin-top: 20px; padding-right: 40px; color: rgb(10, 219, 181);" >
+  <p id="victory"></p>
+  <p id="defeat"></p>
 </div>
 
-<div id="choose">
 
+
+<div id="choose">
   <button id="rock"><img class="sizeOfImage" src="img/rock.png" alt="rock image"></button>
   <button id="paper"><img class="sizeOfImage" src="img/paper.png" alt="paper image"></button>
   <button id="scissors"><img class="sizeOfImage" src="img/scissors.png" alt="scissors image"></button>
-  
 </div>
+
+
 
 <script src="myscript.js"></script>
 </body>

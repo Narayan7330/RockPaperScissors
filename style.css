@@ -5,7 +5,7 @@ background-color: #1e1e1e;
 color: #C8D8B1;
 font-family: 'Orbitron';
 font-weight: bolder;
-font-size: 45px;
+font-size: 50px;
 }
 
 #upperPart{
@@ -30,7 +30,7 @@ justify-content: center;
 flex-direction: row;
 align-items: center;
 margin-top: 0%;
-gap: 500px;
+justify-content: center;
 padding-right: 40px;
 }
 
@@ -58,3 +58,29 @@ width: 200px;
   font-size: 25px;
   
 }
+#humanScore{
+  font-size: 50px;
+  color: aliceblue;
+  display: flex;
+  padding-right:110px ;
+}
+#computerScore{
+  font-size: 50px;
+  color: aliceblue;
+  display: flex;
+  padding-right:150px ;
+}
+
+#defeat{
+  color:#eb3903;
+  font-family: 'Orbitron';
+  font-weight: bold;
+  font-size: 25px;
+}
+#victory{
+  color:#62ff00;
+  font-family: 'Orbitron';
+  font-weight: bold;
+  font-size: 25px;
+}
+
