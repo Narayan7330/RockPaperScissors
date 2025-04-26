@@ -52,7 +52,7 @@ width: 200px;
 }
 
 .decisionText{
-  color:#86cb26;
+  color:#85e400;
   font-family: 'Orbitron';
   font-weight: bold;
   font-size: 25px;
@@ -69,18 +69,5 @@ width: 200px;
   color: aliceblue;
   display: flex;
   padding-right:150px ;
-}
-
-#defeat{
-  color:#eb3903;
-  font-family: 'Orbitron';
-  font-weight: bold;
-  font-size: 25px;
-}
-#victory{
-  color:#62ff00;
-  font-family: 'Orbitron';
-  font-weight: bold;
-  font-size: 25px;
 }
 

@@ -1,4 +1,10 @@
  // variables to keep record of the score of the game
+
+ const rockButton = document.getElementById("rock");
+const paperButton = document.getElementById("paper");
+const scissorsButton = document.getElementById("scissors");
+
+
 let humanScore = 0;
 let computerScore = 0;
 
@@ -31,8 +37,8 @@ const decission = document.querySelector("#decission");
 // playing game
 function playRound(humanChoice,computerChoice){
 
-const victory = document.getElementById("victory")
-const defeat = document.getElementById("defeat")
+// const victory = document.getElementById("victory")
+// const defeat = document.getElementById("defeat")
 
 
 if (humanChoice === "rock" && computerChoice === "paper"){
@@ -80,15 +86,30 @@ document.getElementById("computerScore").textContent = computerScore;
 
 if(humanScore === 5){
 
-  victory.textContent = "VICTORY"
+  decission.textContent = "congrats, you won the game";
+  
+
+
+  rockButton.disabled = true;
+  paperButton.disabled = true;
+  scissorsButton.disabled = true;
 
 }
 else if (computerScore === 5){
-  defeat.textContent = "DEFEAT"
-}
+  decission.textContent = "sorry, you lose the game";
+
+
+
+  rockButton.disabled = true;
+  paperButton.disabled = true;
+  scissorsButton.disabled = true;
 
 }
 
+}
+
+humanScore = 0;
+computerScore = 0;
 
 document.getElementById("rock").addEventListener("click",()=>{ playRound("rock",getComputerChoice());  
 })
